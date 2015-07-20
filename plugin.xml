@@ -69,7 +69,7 @@
             <activity
                 android:name="com.google.zxing.client.android.CaptureActivity"
                 android:clearTaskOnLaunch="true"
-                android:configChanges="orientation|keyboardHidden"
+                android:configChanges="orientation|keyboardHidden|sceenSize"
                 android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
                 android:windowSoftInputMode="stateAlwaysHidden"
                 android:exported="false">
